@@ -5,24 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".ui.main.RegisterActivity">
+    tools:context=".ui.main.RegisterFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvTagtitle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/pendaftaran"
-        app:layout_constraintVertical_bias="0.1"
-        android:textSize="36sp"
-        android:textStyle="bold"/>
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/tvTagtitle"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,7 +98,8 @@
         app:layout_constraintVertical_bias="1"
         android:text="@string/daftar"
         android:layout_marginTop="8dp"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:backgroundTint="@color/blue"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

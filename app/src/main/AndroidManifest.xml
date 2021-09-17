@@ -12,10 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectJosh">
         <activity
-            android:name=".ui.main.MainActivity"
-            android:exported="true"
-            android:label="@string/title_activity_main"
-            android:theme="@style/Theme.ProjectJosh.NoActionBar" />
+            android:name=".ui.main.ActivitySilabus"
+            android:exported="true" />
         <activity
             android:name=".ui.main.HomeActivity"
             android:exported="true" />
@@ -24,9 +22,6 @@
             android:exported="true" />
         <activity
             android:name=".ui.main.VerificationActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ui.main.RegisterActivity"
             android:exported="true" />
         <activity
             android:name=".ui.main.LoginActivity"

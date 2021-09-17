@@ -13,19 +13,19 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnLogin.setOnClickListener {
-            when {
-                binding.edtUsername.text.toString().isEmpty() -> {
-                    binding.edtUsername.error = getString(R.string.cannot_null)
-                }
-                binding.edtPassword.text.toString().isEmpty() -> {
-                    binding.edtPassword.error = getString(R.string.cannot_null)
-                }
-                else -> {
-                    val intent = Intent(this,HomeActivity::class.java)
-                    startActivity(intent)
-                }
-            }
-        }
+//        binding.btnLogin.setOnClickListener {
+//            when {
+//                binding.edtUsername.text.toString().isEmpty() -> {
+//                    binding.edtUsername.error = getString(R.string.cannot_null)
+//                }
+//                binding.edtPassword.text.toString().isEmpty() -> {
+//                    binding.edtPassword.error = getString(R.string.cannot_null)
+//                }
+//                else -> {
+//                    val intent = Intent(this,HomeActivity::class.java)
+//                    startActivity(intent)
+//                }
+//            }
+//        }
     }
 }
