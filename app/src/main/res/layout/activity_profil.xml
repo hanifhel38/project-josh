@@ -85,30 +85,20 @@
         android:textSize="24sp"
         android:layout_marginTop="8dp"
         app:layout_constraintHorizontal_bias="0.5"/>
-
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvFotoprofil"
         app:layout_constraintTop_toBottomOf="@id/tvAsalsekolah"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_caintStart_toStartOf="parent"
+        app:layout_constraonstraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/foto_profil"
-        app:layout_constraintVertical_bias="0"
-        android:textSize="16sp"
+        app:layout_constrintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="1"
+        android:text="@string/lanjut"
         android:layout_marginTop="16dp"
-        app:layout_constraintHorizontal_bias="0.5"/>
+        android:textAllCaps="false"
+        android:backgroundTint="@color/blue"/>
 
-    <ImageView
-        android:layout_width="133dp"
-        android:layout_height="133dp"
-        app:layout_constraintTop_toBottomOf="@id/tvFotoprofil"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_baseline_child_care_24"
-        app:layout_constraintVertical_bias="0"
-        app:layout_constraintHorizontal_bias="0.5"
-        android:layout_marginTop="16dp"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
