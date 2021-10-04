@@ -26,11 +26,13 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             buildConfigField "String","BASE_URL","\"http://10.2.2.2/\""
+            buildConfigField "String","JSONBIN_AUTH_KEY","\"\$2b\$10\$jjnaMrfmLOL6gzJlVIm3o.Dkeh9sG4WlOS3r8BCe39Qv.uAX7huoS\""
         }
         debug{
             minifyEnabled false
             buildConfigField "String","BASE_URL","\"http://10.2.2.2/\""
             signingConfig signingConfigs.debug
+            buildConfigField "String","JSONBIN_AUTH_KEY","\"\$2b\$10\$jjnaMrfmLOL6gzJlVIm3o.Dkeh9sG4WlOS3r8BCe39Qv.uAX7huoS\""
         }
     }
 
