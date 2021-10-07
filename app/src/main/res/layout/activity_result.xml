@@ -130,15 +130,15 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LIHAT NILAI"
+        android:text="@string/lihat_nilai"
         android:textAlignment="center"
-        android:textAllCaps="true"
+        android:textAllCaps="false"
         android:layout_marginTop="16dp"
-        app:layout_caintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/pembahasan"
-        app:layout_constraonstraintBottom_toBottomOf="parent"
-        app:layout_constrintHorizontal_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
         android:backgroundTint="@color/blue"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
