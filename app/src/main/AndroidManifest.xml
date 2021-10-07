@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ProjectJosh" >
+        android:theme="@style/Theme.ProjectJosh">
         <activity
             android:name=".LessonActivity"
             android:exported="true" />
